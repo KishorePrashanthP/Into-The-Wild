@@ -1,0 +1,1414 @@
+* {
+    box-sizing: border-box;
+}
+.body_main{
+    height: 100vh;
+    margin: 0;
+}
+.body_main{
+    overflow-x: hidden;
+}
+.body_login{
+    height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    margin-top: -3.2vh;
+}
+.body_signup{
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    margin-top: -3.2vh;
+}
+.html_body,.html_login{
+    scroll-behavior: smooth;
+}
+
+.mySlides {
+    display: none;
+}
+.bg_safari{
+    background-image: url(../images/safari_bg.jpg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg_donate{
+    background-image: url(../images/bgdonate.jpg);
+    filter: opacity(60%);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg_posts{
+    background-image: url(../images/bgposts.jpg);
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg_contacts{
+    background-image: url('../images/contactusbg.jpg');
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.slideshow-container {
+    position: relative;
+}
+.topnav{
+    position: absolute;
+    top:0;
+    width: 100%;
+}
+.topnav{
+    position: fixed;
+    z-index: 1;
+}
+.bg_topnav{
+    background-image: linear-gradient(to bottom,black,rgba(255,255,255,0));
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 5vh 2vw 1vh 2vw;
+    font-family: 'Comfortaa',cursive;
+    font-weight: bolder;
+    margin: 0.5vh 0.5vw;
+    font-size: 3.5vh;
+}
+.user_profile{
+    position: absolute;
+    left: 0;
+}
+
+.dropdown_content{
+    font-family: 'Comfortaa',cursive;
+    font-size: 2.5vh;
+}
+.profile{
+    border-radius: 50%;
+}
+.topnav .alone:hover{
+    border-bottom: 0.5vh solid white;
+}
+.topnav .active{
+    border-bottom: 0.5vh solid white;
+}
+.topnav .icon{
+    display: none;
+    color: darkgray;
+}
+.bar{
+    color: darkgray;
+}
+.slide_img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: fill;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {opacity: .8;} 
+  to {opacity: 1;}
+}
+.banner_name{
+    line-height: 0.8;
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    text-shadow: 0 0 10vh black;
+    animation: slide_1;
+    animation-duration: 1.5s;
+}
+.banner_name_contacts{
+    line-height: 0.8;
+    position: absolute;
+    top: 30vh;
+    left: 10vw;
+    text-shadow: 0 0 10vh black;
+    animation: slide_1;
+    animation-duration: 1.5s;
+}
+.banner_name_slide2{
+    line-height: 0.8;
+    position: absolute;
+    top: 20vh;
+    right: 3vw;
+    text-shadow: 0 0 10vh black;
+    animation: slide_2;
+    animation-duration: 1.5s;
+}
+.banner_name_slide3{
+    line-height: 0.8;
+    position: absolute;
+    top: 60vh;
+    right: 5vw;
+    text-shadow: 0 0 10vh black;
+    animation: slide_3;
+    animation-duration: 1.5s;
+}
+@keyframes slide_1 {
+    from{left: 0;}
+    to{left: 10vw;}
+}
+@keyframes slide_2 {
+    from{top: 0;}
+    to{top: 20vh;}
+}
+@keyframes slide_3 {
+    from{right: 0;}
+    to{right: 5vw;}
+}
+.banner_name_1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 13vh;
+    color: white;
+}
+.banner_name_2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 25vh;
+    color: white;   
+}
+.quote{
+    font-size: 30vh;
+    padding-top: 5vh;
+    margin-left: 27vh;
+    font-family: 'Dancing Script', cursive;
+}
+.quote1{
+    font-size: 30vh;
+    padding-top: 5vh;
+    margin-left: 1vh;
+    font-family: 'Dancing Script', cursive;
+}
+.quote_text{
+    margin-left: 40vh;
+    margin-top: -25vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10vh;
+}
+.quote_text1{
+    margin-left: 8vh;
+    margin-top: -25vh;
+    font-family: 'Dancing Script', cursive;
+    font-size: 10vh;
+}
+.hiddensidebar{
+    display: none;
+}
+.highlight{
+    color: darkgrey;
+    font-weight: bolder;
+}
+.said_by{
+    margin-left: 65vw;
+    padding: 1px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
+    color: black;
+}
+.said_by_1{
+    margin-left: 68vw;
+    padding: 1vh;
+    font-family: 'Comfortaa', cursive;
+    color: darkgrey;
+    font-weight: bold;
+}
+.bg_login{
+    background-image: url('../images/login.jpg');
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 103.2vh;
+    position: relative;
+}
+.bg_signup{
+    background-image: url('../images/login.jpg');
+    filter: sepia(100%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 103.2vh;
+    position: relative;
+}
+.bg_edit{
+    background-image: url('../images/login.jpg');
+    filter:brightness(90%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 103.2vh;
+    position: relative;
+}
+.lion_login{
+    position: absolute;
+    top: 10vh;
+    left: 35vw;
+    opacity: 0.8;
+    animation-name: login;
+    animation-duration: 1.5s;
+}
+.login_form{
+    position: absolute;
+    left: 36vw;
+    top: 8vh;
+}
+.contacts_form{
+    margin-left: 33vw;
+    margin-top: 5vh;
+    font-family: 'Comfortaa',cursive;
+    font-size: 4vh;
+}
+.form{
+    margin-left: 1.5vw;
+}
+.login_form1{
+    position: absolute;
+    left: 1vw;
+    top: 20vh;
+    font-family: 'Comfortaa',cursive;
+    color: black;
+    font-weight: bold;
+    font-size: 3vh;
+}
+.login_form label{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.8vh;
+    font-weight: bolder;
+    color: white;
+}
+.form_head{
+    margin-left: 4vw;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bolder;
+    text-shadow: 0 0 20px white;
+}
+.form_box{
+    height: 4vh;
+    width: 16vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+}
+.form_box_post{
+    height: 4vh;
+    width: 20vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+}
+.form_box_post_desp{
+    height: 30vh;
+    width: 50vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+}
+.post_box{
+    margin-left: 24vw;
+    margin-top: 10vh;
+}
+.form_box1{
+    height: 4vh;
+    width: 16vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 3.5vw;
+}
+.form_box_2{
+    height: 4vh;
+    width: 16vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 0.8vw;
+}
+.form_box_2-1{
+    height: 4vh;
+    width: 15vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 0.8vw;
+}
+.form_box_2to{
+    height: 4vh;
+    width: 16vw;
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 3.5vw;
+}
+.login_button{
+    font-family: 'Comfortaa', cursive;
+    font-size: 4vh;
+    margin-left: 9vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_button:hover{
+    background-color: black;
+    color: white;
+}
+.login_button_delete{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 1vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_button_delete:hover{
+    background-color: black;
+    color: white;
+}
+.login_button_edit{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 12vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_button_edit:hover{
+    background-color: black;
+    color: white;
+}
+.login_button_post{
+    font-family: 'Comfortaa', cursive;
+    font-size: 4vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_button_post:hover{
+    background-color: black;
+    color: white;
+}
+.postname{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3vh;
+}
+.login_button_donate{
+    font-family: 'Comfortaa', cursive;
+    font-size: 4vh;
+    margin-left: 5vw;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login_button_donate:hover{
+    background-color: black;
+    color: white;
+}
+.login_button11{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 9vw;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.login_button11:hover{
+    background-color: white;
+    color: black;
+}
+.login_button1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 1vw;
+    margin-right: 5vw;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.login_button1:hover{
+    background-color: white;
+    color: black;
+}
+.login_button1_back{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+    margin-left: 23vw;
+    margin-right: 5vw;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.login_button1_back:hover{
+    background-color: white;
+    color: black;
+}
+.login_mem{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5vh;
+    padding-left: 5vw;
+}
+.login_sign{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5vh;
+    text-decoration: none;
+    color: white;
+}
+.alterEmail{
+    margin-left: 3.3vw;
+}
+.Errtext{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vh;
+    color:pink;
+}
+.Errtext{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vh;
+    color:black;
+}
+.wildlife_photographers{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10vh;
+    text-align: center;
+    margin-top: 15vh;
+}
+.wildlife{
+    padding-right: 7vw;
+    animation-name: wildlife;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.photographers{
+    animation-name: photographers;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.column{
+    float: left;
+    width: 33.3%;
+}
+.column1{
+    float: left;
+    width: 33.3%;
+    padding: 3rem;
+}
+.column1_contacts{
+    float: left;
+    width: 33.3%;
+    padding: 3rem;
+}
+.column1_collo{
+    margin-top: -5vh;
+    display: flex;
+    max-width: 33.3%;
+    padding: 3rem;
+}
+.card1{
+    position: relative; 
+    box-shadow:  0 0 40px darkgrey;
+    height: 65vh;
+}
+.card1_contacts{
+    position: relative; 
+}
+.card1_collo{
+    box-shadow:  0 0 40px lightgray;
+    height: 42vh;
+    position: relative;
+    flex: 33.3%;
+    max-width: 33.3%;
+}
+.card1_contact{
+    position: relative;
+}
+.new_photo_icon{
+    margin-left: 12vw;
+}
+.call{
+    margin-left: 9vw;
+}
+.img_photographers{
+    width: 100%;
+    height: 45vh;
+}
+.img_photographers1{
+    width: 100%;
+    height: 45vh;
+}
+.their_name{
+    font-family: 'Comfortaa', cursive;
+    font-size: 4vh;
+    text-align: center;
+}
+.their_name1{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.8vh;
+    position: absolute;
+    top: 45vh;
+    left: 0.3vw;
+}
+.their_name1_contact{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.8vh;
+    position: absolute;
+    top: 5vh;
+    left: 6vw;
+}
+.their_name2{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.8vh;
+    position: absolute;
+    top: 52.5vh;
+    left: 0.5vw;
+}
+.their_name2_contacts{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.8vh;
+    position: absolute;
+    top: 12vh;
+    left: 6.3vw;
+}
+.call_2{
+    margin-left: -2vw;
+}
+.india{
+    margin-left: 5vw;
+}
+.their_name3{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.8vh;
+    position: absolute;
+    top: 55vh;
+    left: 0.5vw;
+}
+.their_name4{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.5vh;
+    color: red;
+    font-weight: bolder;
+    position: absolute;
+    top: 52vh;
+    right: 1vw;
+}
+.their_name5{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.8vh;
+    font-weight: bolder;
+    position: absolute;
+    top: 58vh;
+    left: 0.5vw;
+}
+.their_name6{
+    font-family: 'Comfortaa', cursive;
+    font-size: 2.8vh;
+    font-weight: bolder;
+    position: absolute;
+    top: 57vh;
+    right: 1vw;
+}
+.move{
+    margin-left: 0;
+}
+.book{
+    font-family: 'Comfortaa', cursive;
+    font-size: 3vh;
+}
+.photo{
+    margin-left: 15vw;
+    cursor: pointer;
+    color: darkgrey;
+}
+.photo :hover{
+    color: black;
+}
+@keyframes wildlife {
+    from{color: black;}
+    to{color: darkgrey;}
+}
+@keyframes photographers {
+    from{color: darkgrey;}
+    to{color: black;}
+}
+@keyframes login {
+    from{left: 0;}
+    to{left: 35vw;}
+}
+.modal {
+    position: relative;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height:100vh;
+    overflow: auto;
+    background-color:rgba(0,0,0,0.9);
+    margin-bottom: 10vh;
+}
+.modal-content {
+    margin: 5% auto 5% auto; 
+    width: 80%;
+    animation: modal;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in;
+}
+@keyframes modal {
+    from{margin-top: 0;}
+    to{margin-top: 5%;}   
+}
+.column_photo{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.column_photo img{
+    flex: 33.3%;
+    max-width: 33.3%;
+    vertical-align: middle;
+    padding: 1rem;
+}
+.photo_close{
+    font-family: 'Comfortaa',cursive;
+    font-size: 6vh;
+    cursor: pointer;
+    position: fixed;
+    right: 7vw;
+    top: 2vh;
+    color: white;
+}
+.photo_close:hover{
+    color: white;
+}
+.wolf_foot{
+    width: 10vw;
+    height: 10vh;
+}
+.our_projects{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 15vh;
+    text-align: center;
+    color: rgba(105,105,105,0.3);
+    margin-top: 25vh;
+    position: relative;
+}
+.our_projects1{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 15vh;
+    text-align: center;
+    color: rgba(105,105,105,0.3);
+    margin-top: 13vh;
+    position: relative;
+}
+
+.over_projects{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10vh;
+    position: absolute;
+    top: -1vh;
+    left: 35vh;
+    color: black;
+}
+.over_projects1{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10vh;
+    position: absolute;
+    top: -1vh;
+    left: 30vw;
+    color: black;
+}
+.over_projects2{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10vh;
+    position: absolute;
+    top: -1vh;
+    left: 38vw;
+    color: black;
+}
+.text_projects{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3vh;
+    color: black;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 7vh;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+.flex-item{
+    flex: 25%;
+    max-width: 25%;
+    padding: 3rem;
+    position: relative;
+}
+.collo-img{
+    margin-left: 2vw;
+}
+.flex-item img{
+    width: 100%;
+    display: block;
+}
+.flex_name{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 90%;
+    left: 5.9vw;
+}
+.flex_name1{
+    font-family: 'Comfortaa',cursive;
+    color: darkgray;
+    font-size: 3vh;
+    font-weight: bolder;
+    position: absolute;
+    top: 105%;
+    left: 5vw;
+} 
+.flex_name-1{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 90%;
+    left: 4.6vw;
+}
+.flex_name-2{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3vh;
+    text-align: center;
+    font-weight: bolder;
+    position: absolute;
+    top: 90%;
+    left: 8vw;
+}
+.flex_name1-1{
+    font-family: 'Comfortaa',cursive;
+    color: darkgray;
+    font-size: 3vh;
+    font-weight: bolder;
+    position: absolute;
+    top: 105%;
+    left: 5vw;
+} 
+.search_sort{
+    margin-top: 10vh;
+}
+.donate{
+    position: absolute;
+    top: 18vh;
+    left: 25vw;
+    display: flex;
+    animation: donate;
+    animation-duration: 1.5s;
+}
+@keyframes donate {
+    from{left:0}
+    to{left: 25vw;}
+}
+.img_1{
+    flex: 50%;
+    max-width: 50%;
+}
+.img_2{
+    filter: blur(10px);
+    position: relative;
+}
+.blured_donate{
+    position: relative;
+    flex: 50%;
+    max-width: 50%;
+}
+.donate_text{
+    position: absolute;
+    top: 4vh;
+    left: 5vw;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 6vh;
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+.body_bill{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.outer{
+    position: absolute;
+    top: 2vh;
+    left: 26vw;
+    animation: outer;
+    animation-duration: 1.5s;
+}
+@keyframes outer {
+    from{left: 0;}
+    to{left: 26vw;}
+}
+.a_book{
+    text-decoration: none;
+    color: white;
+}
+.billboard{
+  display: flex;
+  flex-wrap: wrap;
+}
+.billboard label{
+    font-family: 'Comfortaa',cursive;
+    font-size: 3vh;
+    font-weight: bolder;
+}
+#crecard1{
+    color: navy;
+}
+#crecard2{
+    color: red;
+}
+.col-50 {
+  flex: 50%;
+  max-width: 50%;
+}
+.col-75 {
+  flex: 75%;
+  max-width: 75%;
+}
+.col-50
+{
+  padding: 0 1.5rem;
+}
+
+.bill_container{
+  background-color: rgba(211,211,211,0.8);
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+.input_bill{
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.billboard label {
+  margin-bottom: 10px;
+  display: block;
+}
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 5vh;
+}
+.btn{
+  background-color: black;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: auto;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Comfortaa',cursive;
+  font-size: 3vh;
+  font-weight: bolder;
+  margin-left: 15vw;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.billbg{
+    background-image: url('../images/bIllbg.jpeg');
+    filter: sepia(90%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+}
+.bill_name{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 2.5vh;
+}
+.bill_text{
+    font-family: 'Comfortaa',cursive;
+    font-size: 2.5vh;
+}
+.image-container {
+    background-image: linear-gradient( to right,black 70%,darkgray,lightgrey);
+    background-size: cover;
+    position: relative;
+    height: 30%;
+}
+.textdonar{
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 15vh; 
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: screen;
+}
+.textdonar:hover{
+    background-color: darkgray;
+}
+.diffe{
+    font-family: 'Dancing Script', cursive;
+    font-size: 15vh;
+    color: black;
+}
+.marginabove{
+    margin-top: 15vh;
+    margin-bottom: 9vh;
+}
+.footerbg{
+    background-image: linear-gradient(to right,black 45%,darkgray,lightgrey);
+}
+.footer_logo{
+    width: 13vw;
+    height: 18vh;
+    margin: 5vh 42vw;
+}
+.footer_text_1{
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 5vh;
+}
+.footer_text_1_privacy{
+    color: white;
+    font-family: 'Comfortaa',cursive;
+    font-size: 2vh;
+}
+.footer_text_2{
+    color: white;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 9vh;
+    margin-top: -4vh;
+}
+.footer_text{
+    margin-left: 42vw;
+    text-shadow: 0 0 20px black;
+    margin-bottom: 5vh;
+}
+.footer_text_privacy{
+    margin-left: 36vw;
+    margin-bottom: 5vh;
+}
+.footer_flex{
+    display: flex;
+    margin-bottom: 5vh;
+}
+.footer_items{
+    flex: 25%;
+    margin-left: -20vw;
+}
+.footer_items_icons{
+    flex: 25%;
+    margin-left: -30vw;
+}
+.away{
+    margin-left: 20vw;
+}
+.away2{
+    margin-left: 32vw;
+}
+.footer_a{
+    font-family: 'Comfortaa',cursive;
+    font-size: 5vh;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+.footer_a:hover{
+    border-bottom: 3px solid white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+    background: rgb(185,44,113);
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa {
+    padding: 18px;
+    font-size: 45px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.row_collo{
+    display: flex;
+}
+
+.container_contact{
+    margin-top: -10vh;
+}
+.js_val{
+    margin-top: 35vh;
+    background-color: rgb(245,245,245);
+    margin-bottom: 10vh;
+}
+.getintouch{
+    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10vh;
+    margin-top: 10vh;
+}
+.aboutus{
+    background-color: rgb(245,245,245);
+    margin-top: 8vh;
+    padding: 3rem;
+    height: auto;
+    width: 100%;
+}
+.img_about{
+    float: left;
+    margin-right: 10vw;
+}
+.float{
+    flex: 50%;
+    max-width: 100%;
+}
+.aboutus_text{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 10vh;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 15vh;
+}
+.aboutus_para{
+    font-family:'Comfortaa',cursive;
+    font-size: 4vh;
+    line-height: 6vh;
+    margin-bottom: 4vh;
+    margin-right: 5vw;
+}
+.collo_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.collo_flex_items{
+    flex: 33.3%;
+    max-width: 33.3%;
+    padding: 3rem;
+}
+@media screen and (max-width:640px){
+    .banner_name{
+        top: 70vh;
+    }
+    .banner_name_1{
+        font-size: 8vh;
+    }
+    .banner_name_2{
+        font-size: 15vh;
+    }
+    .topnav a:not(:first-child){
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+    .topnav a.icon{
+        display: block;
+        position: fixed;
+        right: 0;
+    }
+    .hiddensidebar {
+        display: block;
+        height: 100vh;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgba(211,211,211,0.8);
+        overflow-x: hidden;
+        transition: width 0.5s;
+    }
+    .hiddensidebar a {
+        padding: 5vh 2vw 1vh 2vw;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 4vh;
+        color: black;
+        display: block;
+    }
+    .hiddensidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 5vh;
+        font-size: 5vh;
+    }
+    .hiddensidebar .alone:hover{
+        font-size: 5vh;
+    }
+    .hiddensidebar .active{
+        font-size: 5vh;
+    }
+    .quote{
+        font-size: 30vh;
+        padding-top: 5vh;
+        margin-left: 5vh;
+        font-family: 'Dancing Script', cursive;
+    }
+    .quote_text{
+        margin-left: 10vh;
+        margin-top: -25vh;
+        font-family: 'Dancing Script', cursive;
+        font-size: 6vh;
+    }
+    .quote_text1{
+        margin-left: 8vh;
+        margin-top: -25vh;
+        font-family: 'Dancing Script', cursive;
+        font-size: 6vh;
+    }
+    .said_by{
+        margin-left: 45vw;
+        padding: 1px;
+        font-family: 'Comfortaa', cursive;
+        font-weight: bold;
+        color: black;
+    }
+    .said_by_1{
+        margin-left: 53vw;
+        padding: 1vh;
+        font-family: 'Comfortaa', cursive;
+        color: darkgrey;
+        font-weight: bold;
+    }
+    .lion_login{
+        left: 13vw;
+    }
+    @keyframes login {
+        from{left: 0;}
+        to{left: 13vw;}
+    }
+    .login_form{
+        left: 24vw;
+    }
+    .form_box{
+        width: 35vw;
+    }
+    .form_box_2{
+        width: 40vw;
+    }
+    .form_box_2-1{
+        width: 40vw;
+    }
+    .form_box_2to{
+        width: 35vw;
+    }
+    .login_button{
+        margin-left: 20vw;
+    }
+    .login_mem{
+        padding-left: 6vw;
+    }
+    .wildlife_photographers{
+        font-size: 4.9vh;
+    }
+    .column{
+        width: 100%;
+        display: block;
+    }
+    .column1{
+        width: 100%;
+        display: block;
+    }
+    .column1_contacts{
+        width: 100%;
+        display: block;
+        margin-left: 20vw;
+    }
+    .call{
+        margin-left: 13vw;
+    }
+    .chennai{
+        margin-left: -5vw;
+    }
+    .mail{
+        margin-left: -7vw;
+    }
+    .column1_collo{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .photo{
+        margin-left: 45vw;
+    }
+    .column_photo img{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .our_projects{
+        font-size: 10vh;
+    }
+    .our_projects1{
+        font-size: 10vh;
+    }
+    .over_projects{
+        font-size: 5vh;
+        left: 4vw;
+        top:-6vh;
+    }
+    .over_projects1{
+        top: -5vh;
+        font-size: 8vh;
+        left: 11vw;
+    }
+    .over_projects2{
+        font-size: 8vh;
+        left: 27vw;
+    }
+    .flex-item{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .flex_name{
+        left: 35vw;
+    }
+    .flex_name1{
+        left: 30vw;
+        top: 100%;
+    }
+    .flex_name1-1{
+        left: 30vw;
+        top: 100%;
+    }
+    .flex_name-1{
+        left: 31vw;
+    }
+    .flex_name-2{
+        left: 36vw;
+    }
+    .login_button1_back{
+        margin-top: 3vh;
+        margin-left: 45vw;
+    }
+    .form_box1{
+        margin-left: 8vw;
+    }
+    .img_1{
+        display: none;
+    }
+    .donate{
+        left:17vw;
+        top: 20vw;
+    }
+    .login_form1{
+        left: 10vw;
+    }
+   .login_button_donate{
+       margin-left: 12vw;
+   }
+   .form_box_2to{
+       margin-left: 1vw;
+   }
+   .donate_text{
+       left: 15vw;
+   }
+   .outer{
+       animation: none;
+   }
+   .col-75{
+    flex: 100%;
+    max-width: 100%;
+    }
+    .col-50{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .outer{
+        left: 0;
+    }
+    .billbg{
+        height: auto;
+    }
+    .textdonar{
+        font-size: 15vh;
+        width: 90%;
+    }
+    .footer_text{
+        margin-left: 33vw;
+    }
+    .footer_items{
+        flex: 100%;
+        margin-left: 2vw;
+    }
+    .footer_items_icons{
+        flex: 100%;
+        margin-left: 2vw;
+    }
+    .footer_a{
+        font-size: 3vh;
+    }
+    .footer_text_privacy{
+        margin-left: 20vw;
+    }
+    .dear{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .float{
+        flex: 100%;
+        max-width: 100%;
+    }
+    .aboutus_para{
+        font-size: 3vh;
+        margin-right: 0vw;
+    }
+    .row_collo{
+        flex: none;
+    }
+    .new_photo{
+        max-width: 100%;
+    }
+    .img_about{
+        float: none;
+        display: block;
+    }
+    .collo_flex_items{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:768px) {
+    .img_1{
+        display: none;
+    }
+}
