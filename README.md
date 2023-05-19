@@ -15,7 +15,7 @@
 
 ## Demo
 
-[Into-The-Wild Project Demo Video](https://drive.google.com/file/d/1jzrYE2fekNo3RAfVI9iSnjOhLC9ht0LX/view?usp=sharing)
+[Into-The-Wild Project Demo Video](https://drive.google.com/file/d/1jzrYE2fekNo3RAfVI9iSnjOhLC9ht0LX/view?usp=share_link)
 
 
 ## Technologies Used
